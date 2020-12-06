@@ -1,16 +1,17 @@
 Package: advent2020
-Title: What the Package Does (One Line, Title Case)
+Title: My Advent of Code 2020 Work
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "John",
+           family = "Lashle",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "john@lashl.ee",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: Here I document my Advent of Code 2020 work.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports: 
+    httr
