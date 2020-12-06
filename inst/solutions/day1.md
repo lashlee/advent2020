@@ -1,37 +1,28 @@
----
-title: "day1"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{day1}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
----
+day1
+================
+John
+12/6/2020
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
-
-```{r setup}
+``` r
 library(advent2020)
 ```
 
 Read data.
 
-```{r read_data}
+``` r
 dat <- get_data(1)
 dat <- read.csv(textConnection(dat), header = FALSE)[['V1']]
 ```
 
 For each expense x
 
-* Check if 2020 - x is in the list
-* If so return x * (2020 - x)
-* Stop iterating when you find a hit
+  - Check if 2020 - x is in the list
+  - If so return x \* (2020 - x)
+  - Stop iterating when you find a hit
 
-```{r solution}
+<!-- end list -->
+
+``` r
 solution_d1 <- function(dat) {
   if (length(dat) == 0) stop('No solution')
   item <- dat[1]
@@ -43,6 +34,6 @@ solution_d1 <- function(dat) {
 
 Copy solution to clipboard for output.
 
-```{r copy}
+``` r
 answer_d1 <- write_to_clipboard(solution_d1(dat))
 ```
