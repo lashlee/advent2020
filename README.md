@@ -34,3 +34,7 @@ library(advent2020)
 ## basic example code
 ## TODO
 ```
+
+## Solutions
+
+  - [Day 1](https://github.com/lashlee/advent2020/blob/master/inst/solutions/day1.md)
