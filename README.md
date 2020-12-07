@@ -38,3 +38,4 @@ library(advent2020)
 ## Solutions
 
   - [Day 1](https://github.com/lashlee/advent2020/blob/master/inst/solutions/day1.md)
+  - [Day 2](https://github.com/lashlee/advent2020/blob/master/inst/solutions/day2.md)
